@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Navbar = () => {
   return (
@@ -24,11 +24,11 @@ const Navbar = () => {
           <a class="nav-link" href="#">Contact</a>
         </li>
         </ul>
-      <a class="navbar-brand" href="#">Navbar</a>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      <a class="navbar-brand fw-bolder fs-4 mx-auto" href="#">Navbar</a>
+     <button className="btn btn-outline-primary ms-auto px-4 rounded-pill">
+        <i className="fa fa-sign-in me-2"></i>Login</button>
+     <button className="btn btn-outline-primary ms-2 px-4 rounded-pill">
+     <i className="fa fa-user-plus me-2"></i>Register</button>
     </div>
   </div>
 </nav>
